@@ -3,7 +3,7 @@ export default function Footer() {
         <footer
             className="
             mt-10 flex items-center justify-center bg-grey-300 
-            py-5 text-sm font-bold text-grey-400 dark:bg-black/20 dark:text-grey-500 tracking-tight"
+            py-5 text-xs font-bold text-grey-400 dark:bg-black/20 lg:text-sm dark:text-grey-500 tracking-tight"
         >
             تمامی حقوق این سایت توسط هیچکی محفوظ نیست،
             <br />

@@ -1,3 +1,6 @@
+//? required
+import { motion } from "framer-motion";
+
 //? components
 import Binary from "../ui/Binary";
 import Instagram from "../ui/Instagram";
@@ -6,6 +9,35 @@ import Instagram from "../ui/Instagram";
 import AcademicCapIcon from "@heroicons/react/solid/AcademicCapIcon";
 import HashtagIcon from "@heroicons/react/outline/HashtagIcon";
 import ArrowSmDownIcon from "@heroicons/react/solid/ArrowSmDownIcon";
+
+//? framer
+const ImageVars = {
+    hidden: {
+        y: -50,
+    },
+    visible: {
+        y: 0,
+        transition: {
+            type: "tween",
+            ease: "easeOut",
+            duration: 1.2,
+        },
+    },
+};
+const ContentVars = {
+    hidden: { y: -50, opacity: 0 },
+    visible: {
+        y: 0,
+        opacity: 1,
+        transition: {
+            type: "tween",
+            duration: 1.2,
+            ease: "easeOut",
+            opacity: { duration: 1.2 },
+            delay: 1,
+        },
+    },
+};
 
 //? comp
 export default function Header() {
@@ -17,7 +49,13 @@ export default function Header() {
                 gap-y-20 bg-white px-4 pt-20 duration-200 dark:bg-grey-600 lg:grid lg:max-w-5xl
                 lg:grid-cols-2 lg:grid-rows-[90%_10%] lg:justify-items-center lg:gap-0 lg:pt-0"
         >
-            <div className="relative h-80 w-[90%] max-w-xs">
+            <motion.div
+                variants={ImageVars}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                className="relative h-80 w-[90%] max-w-xs"
+            >
                 <Binary />
                 <div className="fancyBorder absolute top-0 z-10 aspect-square w-full bg-white shadow-2xl shadow-black/20 dark:bg-grey-500"></div>
                 <div className="absolute left-1 -bottom-5 z-20 aspect-square rounded-2xl bg-white p-1.5 shadow-2xl shadow-[#d846efda] dark:bg-grey-500">
@@ -25,8 +63,14 @@ export default function Header() {
                         <Instagram />
                     </a>
                 </div>
-            </div>
-            <div className="flex w-full flex-col items-center justify-center">
+            </motion.div>
+            <motion.div
+                variants={ContentVars}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                className="flex w-full flex-col items-center justify-center"
+            >
                 <div className="relative">
                     <div className="ballBg absolute -right-8 -top-8 aspect-square w-[4.5rem] rounded-full dark:opacity-50" />
                     <h1 className="text-4xl font-thin text-orange-500">
@@ -54,14 +98,14 @@ export default function Header() {
                         href="#portfolioSection"
                         className="
                             flex w-2/3 items-center justify-center rounded-lg bg-primaryBtn py-3 text-center
-                            font-extrabold text-white shadow-xl shadow-orange-600/50 duration-200 dark:border-2 dark:border-orange-600
-                            dark:bg-none dark:text-orange-500 dark:shadow-none dark:hover:bg-orange-600/10"
+                            font-extrabold text-white shadow-xl shadow-orange-600/50 duration-200 hover:shadow-none dark:border-2
+                            dark:border-orange-600 dark:bg-none dark:text-orange-500 dark:shadow-none dark:hover:bg-orange-600/10"
                     >
                         <HashtagIcon style={{ width: "1.2rem" }} />
                         مشاهده نمونه‌کارها
                     </a>
                 </div>
-            </div>
+            </motion.div>
             <div className="col-span-2 hidden lg:inline-block">
                 <a
                     href="#skillsSection"

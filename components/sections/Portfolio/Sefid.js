@@ -7,7 +7,7 @@ export default function Sefid() {
         <article
             className="
                 mx-5 grid w-full grid-rows-2 items-center justify-items-center overflow-hidden rounded-lg border border-orange-500
-                bg-white shadow-xl shadow-black/20 dark:bg-grey-500 lg:w-3/4 lg:grid-cols-2 lg:grid-rows-1"
+                bg-white shadow-xl shadow-black/10 duration-500 hover:shadow-none dark:bg-grey-500 lg:w-3/4 lg:grid-cols-2 lg:grid-rows-1"
         >
             <img
                 src="/Sefid.jpg"

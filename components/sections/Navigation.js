@@ -1,6 +1,7 @@
 //? required
 import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
+import { motion } from "framer-motion";
 
 //? components
 import MenuButton from "../ui/Menu";
@@ -11,6 +12,26 @@ import MoonIcon from "@heroicons/react/solid/MoonIcon";
 
 //? comp
 export default function Navigation() {
+    const [isActive, setIsActive] = useState(false);
+    const variable = {
+        hidden: {
+            y: -20,
+            opacity: 0,
+            display: "none",
+        },
+        animate: {
+            display: isActive ? "flex" : "none",
+            y: isActive ? 0 : -20,
+            opacity: isActive ? 1 : 0,
+            transition: {
+                type: "tween",
+                duration: 0.7,
+                display: {
+                    delay: isActive ? 0 : 1,
+                },
+            },
+        },
+    };
     const [screenWidth, setScreenWidth] = useState(0);
     const { theme, setTheme, systemTheme } = useTheme();
     const [mounted, setMounted] = useState(false);
@@ -43,19 +64,62 @@ export default function Navigation() {
 
     if (screenWidth < 1024) {
         return (
-            <nav
-                className="
-                fixed top-0 right-0 z-[100] grid w-full grid-cols-2 items-center justify-items-start
-                bg-white/5 py-4 px-4 backdrop-blur-lg backdrop-saturate-200 dark:bg-grey-500/5 lg:hidden"
-            >
-                <MenuButton />
-                <p
-                    className="relative top-[2px] justify-self-end text-2xl font-thin text-orange-500"
-                    dir="ltr"
+            <>
+                <nav
+                    className="
+                    fixed top-0 right-0 z-[100] grid w-full grid-cols-2 items-center justify-items-start
+                    bg-white/5 py-4 px-4 backdrop-blur-lg backdrop-saturate-200 dark:bg-grey-500/5 lg:hidden"
                 >
-                    A<span className="text-lg">A</span>.
-                </p>
-            </nav>
+                    <MenuButton setIsActive={setIsActive} isActive={isActive} />
+                    <a
+                        href="#homeSection"
+                        className="relative top-[2px] justify-self-end text-2xl font-thin text-orange-500"
+                        dir="ltr"
+                    >
+                        A<span className="text-lg">A</span>.
+                    </a>
+                </nav>
+                {isActive && (
+                    <div
+                        className="fixed top-0 left-0 z-[98] h-screen w-screen"
+                        onClick={() => setIsActive(false)}
+                        onTouchMove={() => setIsActive(false)}
+                    />
+                )}
+
+                <motion.div
+                    variants={variable}
+                    initial="hidden"
+                    animate="animate"
+                    className="
+                        fixed top-12 left-0 right-0 z-[99]  w-full items-center justify-center bg-white/5 py-10 backdrop-blur-lg 
+                        backdrop-saturate-200 dark:bg-grey-500/5"
+                >
+                    <div className="flex flex-col items-start justify-center leading-10 dark:text-grey-300">
+                        <a href="#homeSection" onClick={() => setIsActive(false)}>
+                            خانه
+                        </a>
+                        <a href="#skillsSection" onClick={() => setIsActive(false)}>
+                            مهارت‌ها
+                        </a>
+                        <a
+                            href="#portfolioSection"
+                            onClick={() => setIsActive(false)}
+                        >
+                            نمونه‌کارها
+                        </a>
+                        <a
+                            href="#contactMeSection"
+                            onClick={() => setIsActive(false)}
+                        >
+                            تماس با من
+                        </a>
+                        <span className="absolute bottom-2 left-2">
+                            {renderThemeChanger()}
+                        </span>
+                    </div>
+                </motion.div>
+            </>
         );
     } else {
         return (

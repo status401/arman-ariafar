@@ -1,14 +1,10 @@
-//? required
-import { useState } from "react";
-
 //? comp
-export default function MenuButton() {
-    const [active, setActive] = useState(false);
+export default function MenuButton({ setIsActive, isActive }) {
     function openHandler() {
-        setActive(!active);
+        setIsActive((e) => !e);
     }
     return (
-        <div id="nav-icon1" onClick={openHandler} className={active ? "open" : ""}>
+        <div id="nav-icon1" onClick={openHandler} className={isActive ? "open" : ""}>
             <span></span>
             <span></span>
             <span></span>
