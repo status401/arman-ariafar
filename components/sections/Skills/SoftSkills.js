@@ -4,50 +4,50 @@ export default function SoftSkills() {
             <div className="grid w-full grid-cols-3 items-start justify-items-center gap-x-4 bg-white/30 px-4 py-8 dark:bg-black/50">
                 <article
                     className="w-full rounded-lg bg-white/40 p-4 shadow-md backdrop-blur-md backdrop-saturate-150 dark:bg-black/40"
-                    dir="ltr"
+                    dir="rtl"
                 >
-                    <h6 className="text-2xl font-thin text-orange-500">
-                        My Favorite Ones 🧡
-                    </h6>
+                    <h6 className="text-2xl font-thin text-orange-500">درباره من</h6>
                     <ul className="mt-4 text-base font-bold leading-8 text-grey-500/70 dark:text-lightGrey/70">
-                        <li>Next.js</li>
-                        <li>JavaScript ES6</li>
-                        <li>TailwindCss</li>
-                        <li>Framer Motion</li>
+                        <li>دارای کاردانی طراحی صفحات وب</li>
+                        <li>مسلط به زبان انگلیسی</li>
+                        <li>وضعیت تاهل مجرد</li>
+                        <li>متولد ۰۶ / ۱۳۹۹</li>
+                        <li>ساکن تهران</li>
                     </ul>
                 </article>
                 <article
                     className="w-full rounded-lg bg-white/40 p-4 shadow-md backdrop-blur-md backdrop-saturate-200 dark:bg-black/40"
-                    dir="ltr"
+                    dir="rtl"
                 >
                     <h6 className="text-2xl font-thin text-orange-500">
-                        Other Techs ☕
+                        مهارت‌های محیط‌کاری
                     </h6>
                     <ul className="mt-4 text-base font-bold leading-8 text-grey-500/70 dark:text-lightGrey/70">
-                        <li>React.js</li>
-                        <li>Axios</li>
-                        <li>Sass/Less</li>
-                        <li>Boostrap/AntD/MaterialUI/ChakraUI</li>
-                        <li>Styled-Components</li>
-                        <li>Swiper.js</li>
-                        <li>React-Select</li>
-                        <li>JavaScript</li>
-                        <li>Git | GitHub | GitLab</li>
-                        <li>Redux</li>
+                        <li>وقت شناس و مدیریت زمان</li>
+                        <li>منعطف و تطبیق‌پذیر</li>
+                        <li>روابط اجتماعی کافی</li>
+                        <li>اشتیاق به مشارکت</li>
+                        <li>تحقیق و بررسی</li>
+                        <li>طرز فکر درختی</li>
+                        <li>حل مسئله</li>
+                        <li>عیب یابی</li>
+                        <li>شوخ‌طبع</li>
+                        <li>مثبت‌گرا</li>
+                        <li>جزئی‌گرا</li>
                     </ul>
                 </article>
                 <article
                     className="w-full rounded-lg bg-white/40 p-4 shadow-md backdrop-blur-md dark:bg-black/40"
-                    dir="ltr"
+                    dir="rtl"
                 >
                     <h6 className="text-2xl font-thin text-orange-500">
-                        Coming Soon... 🧑🏻‍💻
+                        مهارت‌های کاره‌گروهی
                     </h6>
                     <ul className="mt-4 text-base font-bold leading-8 text-grey-500/70 dark:text-lightGrey/70">
-                        <li>WordPress</li>
-                        <li>NodeJs</li>
-                        <li>React-Native</li>
-                        <li>etc, (never gonna stop)</li>
+                        <li>انتقادگرا و انتقادپذیر</li>
+                        <li>مهارت برقراری ارتباط</li>
+                        <li>منطبق با کار تیمی</li>
+                        <li>مسئولیت‌پذیر</li>
                     </ul>
                 </article>
             </div>
