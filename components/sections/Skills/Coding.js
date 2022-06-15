@@ -23,17 +23,19 @@ export default function Coding() {
                     <h6 className="text-2xl font-thin text-orange-500">
                         Other Techs ☕
                     </h6>
-                    <ul className="mt-4 text-base font-bold leading-8 text-grey-500/70 dark:text-lightGrey/70">
+                    <ul className="mt-4 text-base font-bold leading-7 text-grey-500/70 dark:text-lightGrey/70">
                         <li>React.js</li>
+                        <li>Redux</li>
                         <li>Axios</li>
                         <li>Sass/Less</li>
-                        <li>Bootstrap/AntD/MaterialUI/ChakraUI</li>
                         <li>Styled-Components</li>
+                        <li>Bootstrap/MaterialUI</li>
                         <li>Swiper.js</li>
-                        <li>React-Select</li>
                         <li>JavaScript</li>
-                        <li>Git | GitHub | GitLab</li>
-                        <li>Redux</li>
+                        <li>React-Select</li>
+                        <li>Git | GitHub</li>
+                        <li>DarkMode</li>
+                        <li>Responsive</li>
                     </ul>
                 </article>
                 <article
@@ -47,6 +49,7 @@ export default function Coding() {
                         <li>WordPress</li>
                         <li>NodeJs</li>
                         <li>React-Native</li>
+                        <li>SEO In Developing</li>
                         <li>etc, (never gonna stop)</li>
                     </ul>
                 </article>

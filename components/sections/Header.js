@@ -25,6 +25,20 @@ const ImageVars = {
     },
 };
 
+const ContentVars = {
+    hidden: {
+        opacity: 0,
+    },
+    visible: {
+        opacity: 1,
+        transition: {
+            type: "tween",
+            ease: "easeOut",
+            duration: 2,
+        },
+    },
+};
+
 //? comp
 export default function Header() {
     return (
@@ -50,7 +64,12 @@ export default function Header() {
                     </a>
                 </div>
             </motion.div>
-            <div className="flex w-full flex-col items-center justify-center">
+            <motion.div
+                variants={ContentVars}
+                initial="hidden"
+                animate="visible"
+                className="flex w-full flex-col items-center justify-center"
+            >
                 <div className="relative">
                     <div className="ballBg absolute -right-8 -top-8 aspect-square w-[4.5rem] rounded-full dark:opacity-50" />
                     <h1 className="text-4xl font-thin text-orange-500">
@@ -85,7 +104,7 @@ export default function Header() {
                         مشاهده نمونه‌کارها
                     </a>
                 </div>
-            </div>
+            </motion.div>
             <div className="col-span-2 hidden lg:inline-block">
                 <a
                     href="#skillsSection"

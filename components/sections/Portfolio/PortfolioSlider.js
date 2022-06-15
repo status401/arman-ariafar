@@ -7,6 +7,9 @@ import "swiper/css/pagination";
 
 //? components
 import Sefid from "./Sefid";
+import TodoList from "./TodoList";
+import Digikala from "./Digikala";
+import RoghaniCar from "./Roghanicar";
 
 // import required modules
 import { Pagination, Autoplay } from "swiper";
@@ -35,7 +38,13 @@ export default function PortfolioSlider() {
                     <Sefid />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Sefid />
+                    <TodoList />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <Digikala />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <RoghaniCar />
                 </SwiperSlide>
             </Swiper>
         </>

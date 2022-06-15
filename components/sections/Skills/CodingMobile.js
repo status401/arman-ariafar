@@ -25,7 +25,7 @@ export default function CodingMobile() {
             navigation={true}
             autoplay={{
                 delay: 3000,
-                disableOnInteraction: false,
+                disableOnInteraction: true,
             }}
             modules={[Parallax, Pagination, Navigation, Autoplay]}
             className="max-w-md"
@@ -70,15 +70,17 @@ export default function CodingMobile() {
                     <div className="text" data-swiper-parallax="-100">
                         <ul className="mt-4 text-base font-bold leading-8 text-grey-500/70 dark:text-lightGrey/70">
                             <li>React.js</li>
+                            <li>Redux</li>
                             <li>Axios</li>
                             <li>Sass/Less</li>
-                            <li>Bootstrap/AntD/MaterialUI/ChakraUI</li>
                             <li>Styled-Components</li>
+                            <li>Bootstrap/MaterialUI</li>
                             <li>Swiper.js</li>
-                            <li>React-Select</li>
                             <li>JavaScript</li>
-                            <li>Git | GitHub | GitLab</li>
-                            <li>Redux</li>
+                            <li>React-Select</li>
+                            <li>Git | GitHub</li>
+                            <li>DarkMode</li>
+                            <li>Responsive</li>
                         </ul>
                     </div>
                 </article>

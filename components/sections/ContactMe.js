@@ -35,7 +35,7 @@ export default function ContactMeSection() {
                 <ul className="mt-8 flex flex-col items-start justify-center font-extrabold text-zinc-500 dark:text-grey-400">
                     <li>
                         <a
-                            href="https://google.com"
+                            href="mailto:status4x1@gmail.com"
                             className="flex items-center justify-center gap-x-1 lg:gap-x-2"
                         >
                             <Email />
@@ -44,7 +44,7 @@ export default function ContactMeSection() {
                     </li>
                     <li>
                         <a
-                            href="https://google.com"
+                            href="https://wa.me/0989301220510"
                             dir="ltr"
                             className="flex items-center justify-center gap-x-1 lg:gap-x-2"
                         >
@@ -54,11 +54,11 @@ export default function ContactMeSection() {
                     </li>
                     <li>
                         <a
-                            href="https://google.com"
+                            href="https://instagram.com/arman.hdri"
                             className="flex items-center justify-center gap-x-1 lg:gap-x-2"
                         >
                             <IG />
-                            Rubahe.ig
+                            Arman.Hdri
                         </a>
                     </li>
                 </ul>

@@ -25,14 +25,14 @@ export default function DesignMobile() {
             navigation={true}
             autoplay={{
                 delay: 3000,
-                disableOnInteraction: false,
+                disableOnInteraction: true,
             }}
             modules={[Parallax, Pagination, Navigation, Autoplay]}
             className="max-w-md"
         >
             <div
                 slot="container-start"
-                className="parallax-bg bg-design opacity-80 dark:opacity-50"
+                className="parallax-bg bg-design dark:opacity-50"
                 data-swiper-parallax="-50%"
             ></div>
             <SwiperSlide>
@@ -44,14 +44,14 @@ export default function DesignMobile() {
                         data-swiper-parallax="-300"
                         className="text-2xl font-thin text-orange-500"
                     >
-                        My Favorite Ones 🧡
+                        Softwares 🗃️
                     </h6>
                     <div className="text" data-swiper-parallax="-100">
                         <ul className="mt-4 text-base font-bold leading-8 text-grey-500/70 dark:text-lightGrey/70">
-                            <li>Next.js</li>
-                            <li>JavaScript ES6</li>
-                            <li>TailwindCss</li>
-                            <li>Framer Motion</li>
+                            <li>Figma</li>
+                            <li>A.XD</li>
+                            <li>A.Illustrator (A Little)</li>
+                            <li>A.Photoshop (A Little)</li>
                         </ul>
                     </div>
                 </article>
@@ -65,20 +65,16 @@ export default function DesignMobile() {
                         data-swiper-parallax="-300"
                         className="text-2xl font-thin text-orange-500"
                     >
-                        Other Techs ☕
+                        Design Skills 🎨
                     </h6>
                     <div className="text" data-swiper-parallax="-100">
                         <ul className="mt-4 text-base font-bold leading-8 text-grey-500/70 dark:text-lightGrey/70">
-                            <li>React.js</li>
-                            <li>Axios</li>
-                            <li>Sass/Less</li>
-                            <li>Boostrap/AntD/MaterialUI/ChakraUI</li>
-                            <li>Styled-Components</li>
-                            <li>Swiper.js</li>
-                            <li>React-Select</li>
-                            <li>JavaScript</li>
-                            <li>Git | GitHub | GitLab</li>
-                            <li>Redux</li>
+                            <li>Spacing</li>
+                            <li>Typography</li>
+                            <li>Selecting fonts</li>
+                            <li>Color Theory</li>
+                            <li>Color Sense</li>
+                            <li>Composition / Layout</li>
                         </ul>
                     </div>
                 </article>
@@ -92,13 +88,13 @@ export default function DesignMobile() {
                         data-swiper-parallax="-300"
                         className="text-2xl font-thin text-orange-500"
                     >
-                        Coming Soon... 🧑🏻‍💻
+                        Coming Soon... 📸
                     </h6>
                     <div className="text" data-swiper-parallax="-100">
                         <ul className="mt-4 text-base font-bold leading-8 text-grey-500/70 dark:text-lightGrey/70">
-                            <li>WordPress</li>
-                            <li>NodeJs</li>
-                            <li>React-Native</li>
+                            <li>A.Premiere</li>
+                            <li>A.AfterEffects</li>
+                            <li>Photography</li>
                             <li>etc, (never gonna stop)</li>
                         </ul>
                     </div>
