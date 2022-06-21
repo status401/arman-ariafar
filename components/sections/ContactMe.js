@@ -35,11 +35,11 @@ export default function ContactMeSection() {
                 <ul className="mt-8 flex flex-col items-start justify-center font-extrabold text-zinc-500 dark:text-grey-400">
                     <li>
                         <a
-                            href="mailto:status4x1@gmail.com"
+                            href="mailto:theariafar@gmail.com"
                             className="flex items-center justify-center gap-x-1 lg:gap-x-2"
                         >
                             <Email />
-                            Status4x1@gmail.com
+                            TheAriafar@gmail.com
                         </a>
                     </li>
                     <li>

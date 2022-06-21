@@ -1,5 +1,6 @@
 //? icons
 import ExternalLinkIcon from "@heroicons/react/solid/ExternalLinkIcon";
+import InformationCircleIcon from "@heroicons/react/solid/InformationCircleIcon";
 
 //? comp
 export default function TodoList() {
@@ -10,14 +11,14 @@ export default function TodoList() {
                 bg-white shadow-xl shadow-black/10 duration-500 dark:bg-grey-500 lg:w-3/4 lg:grid-cols-2 lg:grid-rows-1"
         >
             <img
-                src="/Sefid.jpg"
-                alt="Sefid"
+                src="/TodoList.jpg"
+                alt="TodoList"
                 className="aspect-square w-full dark:opacity-90"
             />
             <div className="relative mt-6 flex h-full w-full flex-col items-start justify-start gap-y-2 self-start px-4">
                 <h5 className="self-center text-xl font-thin text-orange-500">
                     تودویست{" "}
-                    <span className="text-xs lg:text-sm font-bold">
+                    <span className="text-xs font-bold lg:text-sm">
                         (اولین پروژه‌ای که توسعه دادم)
                     </span>
                 </h5>
@@ -28,12 +29,16 @@ export default function TodoList() {
                     <li>Vanilla JavaScript</li>
                     <li>Sass</li>
                     <li>Css Animation</li>
-                    <li className="underline">
-                        <a href="https://gtmetrix.com/reports/vanilla-todoapp.vercel.app/Dv93GktS/">
-                            GTMetrix
-                        </a>
-                    </li>
                 </ul>
+                <a
+                    href="https://gtmetrix.com/reports/vanilla-todoapp.vercel.app/Dv93GktS/"
+                    className="absolute -top-4 left-1 flex items-center justify-center text-xs text-orange-500"
+                >
+                    GTMetrix
+                    <InformationCircleIcon
+                        style={{ width: "1.2rem", transform: "translateY(-1px)" }}
+                    />
+                </a>
                 <div className="absolute bottom-10 right-0 left-0 grid w-full grid-cols-2 items-center justify-items-center gap-y-2 justify-self-end">
                     <a
                         href="https://vanilla-todoapp.vercel.app/"

@@ -1,5 +1,6 @@
 //? icons
 import ExternalLinkIcon from "@heroicons/react/solid/ExternalLinkIcon";
+import InformationCircleIcon from "@heroicons/react/solid/InformationCircleIcon";
 
 //? comp
 export default function Sefid() {
@@ -31,12 +32,16 @@ export default function Sefid() {
                     <li>Framer-Motion</li>
                     <li>React-Context/Reducer</li>
                     <li>React-Hot-Toast</li>
-                    <li className="underline">
-                        <a href="https://gtmetrix.com/reports/mr-mustache-cafe.vercel.app/R4aGDVDR/">
-                            GTMetrix
-                        </a>
-                    </li>
                 </ul>
+                <a
+                    href="https://gtmetrix.com/reports/mr-mustache-cafe.vercel.app/R4aGDVDR/"
+                    className="absolute -top-4 left-1 flex items-center justify-center text-xs text-orange-500"
+                >
+                    GTMetrix
+                    <InformationCircleIcon
+                        style={{ width: "1.2rem", transform: "translateY(-1px)" }}
+                    />
+                </a>
                 <div className="absolute bottom-10 right-0 left-0 grid w-full grid-cols-2 items-center justify-items-center gap-y-2 justify-self-end">
                     <a
                         href="https://mr-mustache-cafe.vercel.app/"

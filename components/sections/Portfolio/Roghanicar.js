@@ -1,5 +1,6 @@
 //? icons
 import ExternalLinkIcon from "@heroicons/react/solid/ExternalLinkIcon";
+import InformationCircleIcon from "@heroicons/react/solid/InformationCircleIcon";
 
 //? comp
 export default function RoghaniCar() {
@@ -10,8 +11,8 @@ export default function RoghaniCar() {
                 bg-white shadow-xl shadow-black/10 duration-500 dark:bg-grey-500 lg:w-3/4 lg:grid-cols-2 lg:grid-rows-1"
         >
             <img
-                src="/Sefid.jpg"
-                alt="Sefid"
+                src="/Roghanicar.jpg"
+                alt="Roghanicar"
                 className="aspect-square w-full dark:opacity-90"
             />
             <div className="relative mt-6 flex h-full w-full flex-col items-start justify-start gap-y-2 self-start px-4">
@@ -23,14 +24,22 @@ export default function RoghaniCar() {
                     تکنولوژی‌های استفاده شده:
                 </h6>
                 <ul className="flex list-disc flex-col items-start justify-center pr-4 text-base leading-8 text-zinc-500 dark:text-lightGrey/50">
-                    <li>Next.js</li>
+                    <li>Next.js / Next js api routes</li>
                     <li>TailwindCss</li>
                     <li>Axios</li>
-                    <li>Framer-motion</li>
+                    <li>Framer-Motion</li>
                     <li>Swiper.js</li>
                     <li>Formik x Yup</li>
-                    <li>React-Select</li>
                 </ul>
+                <a
+                    href="https://gtmetrix.com/reports/roghanicar.vercel.app/VoALgDJ5//"
+                    className="absolute -top-4 left-1 flex items-center justify-center text-xs text-orange-500"
+                >
+                    GTMetrix
+                    <InformationCircleIcon
+                        style={{ width: "1.2rem", transform: "translateY(-1px)" }}
+                    />
+                </a>
                 <div className="absolute bottom-10 right-0 left-0 grid w-full grid-cols-2 items-center justify-items-center gap-y-2 justify-self-end">
                     <a
                         href="https://roghanicar.vercel.app//"

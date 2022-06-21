@@ -38,13 +38,13 @@ export default function PortfolioSlider() {
                     <Sefid />
                 </SwiperSlide>
                 <SwiperSlide>
+                    <RoghaniCar />
+                </SwiperSlide>
+                <SwiperSlide>
                     <TodoList />
                 </SwiperSlide>
                 <SwiperSlide>
                     <Digikala />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <RoghaniCar />
                 </SwiperSlide>
             </Swiper>
         </>
