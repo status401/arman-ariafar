@@ -72,7 +72,7 @@ export default function SoftSkillsMobile() {
                         <ul className="mt-4 text-base font-bold leading-8 text-grey-500/70 dark:text-lightGrey/70">
                             <li>وقت شناس و مدیریت زمان</li>
                             <li>منعطف و تطبیق‌پذیر</li>
-                            <li>روابط اجتماعی کافی</li>
+                            <li>روابط اجتماعی موثر</li>
                             <li>اشتیاق به مشارکت</li>
                             <li>تحقیق و بررسی</li>
                             <li>طرز فکر درختی</li>

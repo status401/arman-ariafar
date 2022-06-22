@@ -17,7 +17,7 @@ export default function Digikala() {
             />
             <div className="relative mt-6 flex h-full w-full flex-col items-start justify-start gap-y-2 self-start px-4">
                 <h5 className="self-center text-xl font-thin text-orange-500">
-                    دیجیکالا ۲.۰.۱{" "}
+                    دیجیکالا ۲{" "}
                     <span className="text-xs font-bold lg:text-sm">
                         (طراحی و توسعه شبه دیجیکالا)
                     </span>
