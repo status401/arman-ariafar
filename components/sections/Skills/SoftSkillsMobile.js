@@ -25,7 +25,7 @@ export default function SoftSkillsMobile() {
             navigation={true}
             autoplay={{
                 delay: 3000,
-                disableOnInteraction: false,
+                disableOnInteraction: true,
             }}
             modules={[Parallax, Pagination, Navigation, Autoplay]}
             className="max-w-md"
@@ -98,10 +98,10 @@ export default function SoftSkillsMobile() {
                     </h6>
                     <div className="text" data-swiper-parallax="-100">
                         <ul className="mt-4 text-base font-bold leading-8 text-grey-500/70 dark:text-lightGrey/70">
-                            <li>انتقادگرا و انتقادپذیر</li>
-                            <li>مهارت برقراری ارتباط</li>
-                            <li>منطبق با کار تیمی</li>
                             <li>مسئولیت‌پذیر</li>
+                            <li>انتقادگرا و انتقادپذیر</li>
+                            <li>مهارت در برقراری ارتباط</li>
+                            <li>منطبق با کار تیمی</li>
                         </ul>
                     </div>
                 </article>

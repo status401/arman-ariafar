@@ -58,7 +58,7 @@ export default function Header() {
             >
                 <Binary />
                 <div className="fancyBorder absolute top-0 z-10 aspect-square w-full bg-white shadow-2xl shadow-black/20 dark:bg-grey-500"></div>
-                <div className="absolute left-1 -bottom-5 z-20 aspect-square rounded-2xl bg-white p-1.5 shadow-2xl shadow-[#d846efda] dark:bg-grey-500">
+                <div className="absolute left-1 -bottom-5 z-20 aspect-square rounded-2xl bg-white p-1.5 shadow-2xl shadow-[#d846efda] dark:bg-grey-500 dark:shadow-none">
                     <a href="https://instagram.com/rubahe.ig">
                         <Instagram />
                     </a>

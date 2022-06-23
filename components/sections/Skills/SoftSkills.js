@@ -23,17 +23,14 @@ export default function SoftSkills() {
                         مهارت‌های محیط‌کاری
                     </h6>
                     <ul className="mt-4 text-base font-bold leading-8 text-grey-500/70 dark:text-lightGrey/70">
-                        <li>وقت شناس و مدیریت زمان</li>
-                        <li>منعطف و تطبیق‌پذیر</li>
+                        <li>وقت شناس و مدیریت تایم</li>
+                        <li>اشتیاق به مشارکت در پروژه</li>
+                        <li>منعطف و تطبیق‌پذیر در امور</li>
+                        <li>تحقیق و بررسی در امور</li>
+                        <li>حل مسائل و چالش‌ها</li>
+                        <li>شوخ‌طبع و مثبت‌نگر</li>
                         <li>روابط اجتماعی موثر</li>
-                        <li>اشتیاق به مشارکت</li>
-                        <li>تحقیق و بررسی</li>
-                        <li>طرز فکر درختی</li>
-                        <li>حل مسئله</li>
-                        <li>عیب یابی</li>
-                        <li>شوخ‌طبع</li>
-                        <li>مثبت‌گرا</li>
-                        <li>جزئی‌گرا</li>
+                        <li>عیب یابی (دیباگینگ)</li>
                     </ul>
                 </article>
                 <article
@@ -41,13 +38,13 @@ export default function SoftSkills() {
                     dir="rtl"
                 >
                     <h6 className="text-2xl font-thin text-orange-500">
-                        مهارت‌های کاره‌گروهی
+                        مهارت‌های کارگروهی
                     </h6>
                     <ul className="mt-4 text-base font-bold leading-8 text-grey-500/70 dark:text-lightGrey/70">
-                        <li>انتقادگرا و انتقادپذیر</li>
-                        <li>مهارت برقراری ارتباط</li>
-                        <li>منطبق با کار تیمی</li>
                         <li>مسئولیت‌پذیر</li>
+                        <li>انتقادگرا و انتقادپذیر</li>
+                        <li>مهارت در برقراری ارتباط</li>
+                        <li>منطبق با کار تیمی</li>
                     </ul>
                 </article>
             </div>

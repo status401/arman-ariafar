@@ -12,8 +12,8 @@ export default function Design() {
                     <ul className="mt-4 text-base font-bold leading-8 text-grey-500/70 dark:text-lightGrey/70">
                         <li>Figma</li>
                         <li>A.XD</li>
-                        <li>A.Illustrator (A Little)</li>
-                        <li>A.Photoshop (A Little)</li>
+                        <li>A.Illustrator</li>
+                        <li>A.Photoshop</li>
                     </ul>
                 </article>
                 <article
@@ -42,7 +42,6 @@ export default function Design() {
                     <ul className="mt-4 text-base font-bold leading-8 text-grey-500/70 dark:text-lightGrey/70">
                         <li>A.Premiere</li>
                         <li>A.AfterEffects</li>
-                        <li>Photography</li>
                         <li>etc, (never gonna stop)</li>
                     </ul>
                 </article>

@@ -50,8 +50,8 @@ export default function DesignMobile() {
                         <ul className="mt-4 text-base font-bold leading-8 text-grey-500/70 dark:text-lightGrey/70">
                             <li>Figma</li>
                             <li>A.XD</li>
-                            <li>A.Illustrator (A Little)</li>
-                            <li>A.Photoshop (A Little)</li>
+                            <li>A.Illustrator</li>
+                            <li>A.Photoshop</li>
                         </ul>
                     </div>
                 </article>
