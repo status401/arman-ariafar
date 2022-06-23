@@ -54,11 +54,17 @@ export default function Header() {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}
-                className="relative h-80 w-[90%] max-w-xs"
+                className="relative h-80 w-[90%] max-w-xs lg:max-w-sm"
             >
                 <Binary />
-                <div className="fancyBorder absolute top-0 z-10 aspect-square w-full bg-white shadow-2xl shadow-black/20 dark:bg-grey-500"></div>
-                <div className="absolute left-1 -bottom-5 z-20 aspect-square rounded-2xl bg-white p-1.5 shadow-2xl shadow-[#d846efda] dark:bg-grey-500 dark:shadow-none">
+                <div
+                    className="
+                    fancyBorder absolute top-0 z-10 flex aspect-square w-full items-end justify-center 
+                    overflow-hidden bg-white shadow-2xl shadow-black/20 dark:bg-grey-500"
+                >
+                    <img src="/Arman1.png" alt="Arman" className="h-full dark:brightness-90" />
+                </div>
+                <div className="absolute left-1 -bottom-5 z-20 aspect-square rounded-2xl bg-white p-1.5 shadow-2xl shadow-[#d846efda] dark:bg-grey-500 dark:shadow-none lg:-bottom-20">
                     <a href="https://instagram.com/rubahe.ig">
                         <Instagram />
                     </a>

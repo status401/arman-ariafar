@@ -21,7 +21,17 @@ export default function ContactMeSection() {
                     تماس‌با‌من
                 </h6>
             </header>
-            <div className="z-50 -mt-10 aspect-square w-full max-w-xs rounded-2xl bg-white shadow-2xl dark:bg-grey-500 lg:order-2 lg:mt-0 lg:justify-self-end" />
+            <div
+                className="
+                z-50 -mt-10 flex aspect-square w-full max-w-xs items-end justify-center rounded-2xl bg-white shadow-2xl 
+                dark:bg-grey-500 lg:order-2 lg:mt-0 lg:justify-self-end"
+            >
+                <img
+                    src="/Arman2.png"
+                    alt="Arman2"
+                    className="h-full dark:brightness-[80%]"
+                />
+            </div>
             <div className="mt-10 flex flex-col items-start justify-center">
                 <h6 className="text-base font-extrabold text-zinc-500 dark:text-grey-400">
                     ارتباط با
