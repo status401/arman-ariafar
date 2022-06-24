@@ -34,7 +34,7 @@ export default function Sefid() {
                     <li>React-Hot-Toast</li>
                 </ul>
                 <a
-                    href="https://gtmetrix.com/reports/mr-mustache-cafe.vercel.app/R4aGDVDR/"
+                    href="https://gtmetrix.com/reports/mr-mustache-cafe.vercel.app/5iuEarQo/"
                     className="absolute -top-4 left-1 flex items-center justify-center text-xs text-orange-500"
                 >
                     GTMetrix

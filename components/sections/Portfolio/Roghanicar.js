@@ -32,7 +32,7 @@ export default function RoghaniCar() {
                     <li>Formik x Yup</li>
                 </ul>
                 <a
-                    href="https://gtmetrix.com/reports/roghanicar.vercel.app/VoALgDJ5//"
+                    href="https://gtmetrix.com/reports/roghanicar.vercel.app/Bbi4JnpP/"
                     className="absolute -top-4 left-1 flex items-center justify-center text-xs text-orange-500"
                 >
                     GTMetrix

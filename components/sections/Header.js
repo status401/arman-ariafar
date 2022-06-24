@@ -62,7 +62,11 @@ export default function Header() {
                     fancyBorder absolute top-0 z-10 flex aspect-square w-full items-end justify-center 
                     overflow-hidden bg-white shadow-2xl shadow-black/20 dark:bg-grey-500"
                 >
-                    <img src="/Arman1.png" alt="Arman" className="h-full dark:brightness-90" />
+                    <img
+                        src="/Arman1.png"
+                        alt="Arman"
+                        className="h-full dark:brightness-90"
+                    />
                 </div>
                 <div className="absolute left-1 -bottom-5 z-20 aspect-square rounded-2xl bg-white p-1.5 shadow-2xl shadow-[#d846efda] dark:bg-grey-500 dark:shadow-none lg:-bottom-20">
                     <a href="https://instagram.com/rubahe.ig">
@@ -77,13 +81,13 @@ export default function Header() {
                 className="flex w-full flex-col items-center justify-center"
             >
                 <div className="relative">
-                    <div className="ballBg absolute -right-8 -top-8 aspect-square w-[4.5rem] rounded-full dark:opacity-50" />
-                    <h1 className="text-4xl font-thin text-orange-500">
+                    <div className="ballBg absolute -right-8 -top-8 aspect-square w-[4.5rem] rounded-full dark:opacity-50 lg:w-20" />
+                    <h1 className="text-4xl font-thin text-orange-500 lg:text-5xl">
                         <span className="text-zinc-500 dark:text-lightGrey">من</span>{" "}
                         آرمان آریافرم
                     </h1>
                 </div>
-                <p className="mt-2 text-sm font-normal text-orange-500">
+                <p className="mt-2 text-sm font-normal text-orange-500 lg:text-lg">
                     <span className="text-zinc-500 dark:text-lightGrey">
                         طراح و توسعه دهنده Front-End،
                     </span>{" "}

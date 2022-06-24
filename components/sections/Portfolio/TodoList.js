@@ -31,7 +31,7 @@ export default function TodoList() {
                     <li>Css Animation</li>
                 </ul>
                 <a
-                    href="https://gtmetrix.com/reports/vanilla-todoapp.vercel.app/Dv93GktS/"
+                    href="https://gtmetrix.com/reports/vanilla-todoapp.vercel.app/M37bR7lm/"
                     className="absolute -top-4 left-1 flex items-center justify-center text-xs text-orange-500"
                 >
                     GTMetrix

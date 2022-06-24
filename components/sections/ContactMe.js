@@ -64,11 +64,11 @@ export default function ContactMeSection() {
                     </li>
                     <li>
                         <a
-                            href="https://instagram.com/arman.hdri"
+                            href="https://instagram.com/arman.arfr"
                             className="flex items-center justify-center gap-x-1 lg:gap-x-2"
                         >
                             <IG />
-                            Arman.Hdri
+                            Arman.Arfr
                         </a>
                     </li>
                 </ul>
